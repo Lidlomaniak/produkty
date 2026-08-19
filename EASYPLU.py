@@ -8,8 +8,8 @@ from difflib import get_close_matches
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 
-url = "https://raw.githubusercontent.com/SakuraNoHanabira/produkty/main/produkty.json"
-inputhandler_url = "https://raw.githubusercontent.com/SakuraNoHanabira/produkty/b4cb5fd300dcfb62980ca27395457474fe57282a/inputhandler.py"
+url = "https://githubusercontent.com"
+inputhandler_url = "https://githubusercontent.com"
 
 def load_products_codes(url):
     try:
